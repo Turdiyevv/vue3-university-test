@@ -44,16 +44,16 @@ const props  = ref([
 
     <div>
       <div class="w-100 position-absolute">
-        <img class="w-100 header2__styles" src="src/assets/header-2.png" alt="">
+        <img class="w-100 header2__styles" src="../assets/header-2.png" alt="">
         <div class="d-flex justify-items-center">
           <h3>Practice Test</h3>
         </div>
       </div>
-      <img class="w-100" src="src/assets/white1.png" alt="">
+      <img class="w-100" src="../assets/white1.png" alt="">
     </div>
     <div>
-      <img class="w-100 position-absolute" style="margin-top: 155px" src="src/assets/green1.png" alt="">
-      <img class="w-100" src="src/assets/white2.png" alt="">
+      <img class="w-100 position-absolute" style="margin-top: 155px" src="../assets/green1.png" alt="">
+      <img class="w-100" src="../assets/white2.png" alt="">
     </div>
   </div>
 </template>
