@@ -45,8 +45,12 @@ const props  = ref([
     <div>
       <div class="w-100 position-absolute">
         <img class="w-100 header2__styles" src="../assets/header-2.png" alt="">
-        <div class="d-flex justify-items-center">
-          <h3>Practice Test</h3>
+        <div class="Practice__style">
+          <h3 class="text-warning">Practice Test</h3>
+          <hr>
+          <div>
+            <img src="../assets/We.png" alt="">
+          </div>
         </div>
       </div>
       <img class="w-100" src="../assets/white1.png" alt="">
@@ -59,6 +63,12 @@ const props  = ref([
 </template>
 
 <style scoped>
+.Practice__style{
+  max-width: 1200px;
+  justify-items: center;
+  display: grid;
+  margin: 160px auto 0 auto;
+}
 .header2__styles{
     max-width: 1200px !important;
     margin-top: 200px;
