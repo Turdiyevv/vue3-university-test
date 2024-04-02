@@ -1,6 +1,7 @@
 <script setup>
 import CarouselComponent from "@/components/carousel-component.vue";
 import { ref } from 'vue'
+import Rectangle from "@/components/rectangle.vue";
 
 const props  = ref([
   {id:0, text:'Zero', src: 'https://cdn.vuetifyjs.com/images/carousel/squirrel.jpg'},
@@ -45,30 +46,21 @@ const props  = ref([
     <div>
       <div class="w-100 position-absolute">
         <img class="w-100 header2__styles" src="../assets/header-2.png" alt="">
-        <div class="Practice__style">
-          <h3 class="text-warning">Practice Test</h3>
-          <hr>
-          <div>
-            <img src="../assets/We.png" alt="">
-          </div>
-        </div>
+        <rectangle/>
       </div>
       <img class="w-100" src="../assets/white1.png" alt="">
     </div>
     <div>
+      <div class="position-absolute w-100">
+        <button  type="button" class="btn btn-dark">Try test</button>
+      </div>
       <img class="w-100 position-absolute" style="margin-top: 155px" src="../assets/green1.png" alt="">
-      <img class="w-100" src="../assets/white2.png" alt="">
+      <img class="w-100" src="../assets/white2.png" alt="" style="margin-top: -5px">
     </div>
   </div>
 </template>
 
 <style scoped>
-.Practice__style{
-  max-width: 1200px;
-  justify-items: center;
-  display: grid;
-  margin: 160px auto 0 auto;
-}
 .header2__styles{
     max-width: 1200px !important;
     margin-top: 200px;
