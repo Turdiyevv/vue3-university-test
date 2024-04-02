@@ -2,6 +2,8 @@
 import CarouselComponent from "@/components/carousel-component.vue";
 import { ref } from 'vue'
 import Rectangle from "@/components/rectangle.vue";
+import FirstItems from "@/components/first-items.vue";
+import Recourse from "@/components/recourse.vue";
 
 const props  = ref([
   {id:0, text:'Zero', src: 'https://cdn.vuetifyjs.com/images/carousel/squirrel.jpg'},
@@ -31,28 +33,37 @@ const props  = ref([
 
     <div class="">
       <carousel-component :slides="props"/>
-        <div class="progress__style mx-5">
-          <div class="mx-5 d-flex">
-            <span class="text-primary mx-2">|</span> <span>{{props.length}}</span>
+      <div class="position-absolute main_absolute_style">
+        <div class="progress__style">
+          <div class="mx-4 d-flex">
+            <span class="text-primary mx-2">|</span><span>{{props.length}}</span>
           </div>
-          <div class="progress w-100 h-25" role="progressbar" aria-label="Warning example"
+          <div class="progress w-100 mx-5 h-25" role="progressbar" aria-label="Warning example"
                aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"
           >
-            <div class="progress-bar text-bg-warning" style=" width: 75%">75%</div>
+            <div class="progress-bar text-bg-warning" style="width: 75%">75%</div>
           </div>
         </div>
+        <div style="width: 1200px; margin: 80px 0">
+          <first-items/>
+        </div>
+        <div class="w-100">
+          <rectangle/>
+        </div>
+      </div>
     </div>
 
     <div>
-      <div class="w-100 position-absolute">
-        <img class="w-100 header2__styles" src="../assets/header-2.png" alt="">
-        <rectangle/>
-      </div>
       <img class="w-100" src="../assets/white1.png" alt="">
     </div>
     <div>
-      <div class="position-absolute w-100">
-        <button  type="button" class="btn btn-dark">Try test</button>
+      <div class="position-absolute w-100 d-flex align-items-center justify-content-center flex-column">
+        <button  type="button" class="btn text-white rounded-pill"
+                 style="width: 314px; background-color: #FFA500;"
+        >Try test</button>
+        <div style="margin-top: 200px">
+          <recourse/>
+        </div>
       </div>
       <img class="w-100 position-absolute" style="margin-top: 155px" src="../assets/green1.png" alt="">
       <img class="w-100" src="../assets/white2.png" alt="" style="margin-top: -5px">
@@ -61,20 +72,20 @@ const props  = ref([
 </template>
 
 <style scoped>
-.header2__styles{
-    max-width: 1200px !important;
-    margin-top: 200px;
-    margin-left: 137px;
+.main_absolute_style{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 .progress__style{
   align-items: center;
-  padding: 0 200px;
   background: #354B604D;
   border-radius: 8px;
   display: flex;
-  position: absolute;
   height: 50px;
-  width: 90%;
+  width: 1400px;
 }
 .form-control{
   height: 40px;
