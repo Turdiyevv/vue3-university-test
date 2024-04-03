@@ -14,13 +14,21 @@
         <div>BOOKS</div>
         <div>USEFUL ARTICLES</div>
       </div>
-      <div class="see_all_style">See all</div>
+      <div class="d-flex align-items-center justify-content-center flex-column">
+        <div class="see_all_style">See all</div>
+      </div>
     </div>
   </div>
 </template>
 <style scoped>
 .see_all_style{
-
+  color: white;
+  width: 771px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #039CE0;
+  border-radius: 0 0 20px 20px;
 }
 .tabs__style{
   align-items: center;

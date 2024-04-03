@@ -3,64 +3,73 @@
 </script>
 
 <template>
-  <div class="Practice__style">
-    <h3 class="text-warning__style">Practice Test</h3>
-    <div class="line_style"></div>
-    <div>
-      <div class="provide_text">
-         We provide students with realistic practice tests, simulating the actual test-taking experience and helping them prepare for their exams with confidence. Discover your strengths and weaknesses, and take your performance to the next level with our comprehensive practice tests.
-      </div>
-      <div class="mt-5">
-        <img src='../assets/Rectangle24.png' alt="">
-        <div class="d-flex justify-content-center" style="margin:-197px 0">
-          <div class="item__style2">
-            <img src='../assets/items/dtm.png' alt=""
-                 style="rotate: 24.39grad; margin: -7px 8px;">
-            <div class="item__style2_child">
-              <div class="item__text">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae sagittis sapien.
+  <div style="margin-bottom: 100px;">
+    <div class="Practice__style">
+      <h3 class="text-warning__style">Practice Test</h3>
+      <div class="line_style"></div>
+      <div>
+        <div class="provide_text">
+           We provide students with realistic practice tests, simulating the actual test-taking experience and helping them prepare for their exams with confidence. Discover your strengths and weaknesses, and take your performance to the next level with our comprehensive practice tests.
+        </div>
+        <div class="mt-5">
+          <img src='../assets/Rectangle24.png' alt="">
+          <div class="d-flex justify-content-center" style="margin:-197px 0">
+            <div class="item__style2">
+              <img src='../assets/items/dtm.png' alt=""
+                   style="rotate: 24.39grad; margin: -7px 8px;">
+              <div class="item__style2_child">
+                <div class="item__text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae sagittis sapien.
+                </div>
               </div>
             </div>
-          </div>
-          <div class="item_1_style">
-            <img src='../assets/items/ielts.png' alt=""
-                 style="rotate: 16.39grad; margin: -3px 14px;">
-            <div class="item_1_style_child">
-              <div class="item__text">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae sagittis sapien.
+            <div class="item_1_style">
+              <img src='../assets/items/ielts.png' alt=""
+                   style="rotate: 16.39grad; margin: -3px 14px;">
+              <div class="item_1_style_child">
+                <div class="item__text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae sagittis sapien.
+                </div>
               </div>
             </div>
-          </div>
-          <div class="item_0_style">
-            <img src='../assets/items/toefl.png' alt=""
-                 style="rotate: -2grad; margin: 19px 16px;">
-            <div class="item_0_style_child">
-              <div class="item__text">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae sagittis sapien.
+            <div class="item_0_style">
+              <img src='../assets/items/toefl.png' alt=""
+                   style="rotate: -2grad; margin: 19px 16px;">
+              <div class="item_0_style_child">
+                <div class="item__text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae sagittis sapien.
+                </div>
               </div>
             </div>
-          </div>
-          <div class="item__style1_1">
-            <img src='../assets/items/sat.png' alt=""
-                 style="rotate: -11grad; margin: 9px 12px;">
-            <div class="item___style1_1_child">
-              <div class="item__text">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae sagittis sapien.
+            <div class="item__style1_1">
+              <img src='../assets/items/sat.png' alt=""
+                   style="rotate: -11grad; margin: 9px 12px;">
+              <div class="item___style1_1_child">
+                <div class="item__text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae sagittis sapien.
+                </div>
               </div>
             </div>
-          </div>
-          <div class="item__style2_2">
-            <img src='../assets/items/gmat.png' alt=""
-                 style="rotate: -27grad; margin: -3px 8px;">
-            <div class="item__style2_2_child">
-              <div class="item__text">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae sagittis sapien.
+            <div class="item__style2_2">
+              <img src='../assets/items/gmat.png' alt=""
+                   style="rotate: -27grad; margin: -3px 8px;">
+              <div class="item__style2_2_child">
+                <div class="item__text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae sagittis sapien.
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
+
     </div>
+      <div class="w-100 d-flex align-items-center justify-content-center flex-column">
+        <button  type="button" class="btn text-white rounded-pill"
+                 style="width: 350px; background-color: #FFA500;">
+          <h5>Try test</h5>
+        </button>
+      </div>
   </div>
 </template>
 <style scoped>
@@ -171,7 +180,7 @@
   max-width: 1200px;
   justify-items: center;
   display: grid;
-  margin: 160px auto 0 auto;
+  margin: 160px auto 250px auto;
 }
 .line_style{
   background-color: #FFA500;

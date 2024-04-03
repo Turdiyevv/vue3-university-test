@@ -6,13 +6,15 @@
   <div>
     <nav class="navbar navbar-expand-lg bg-body-tertiary nav_bar__style">
       <div class="container-fluid mx-5">
-        <img class="mt-3" src="../assets/Logo.png" alt="">
-        <button class="navbar-toggler" type="button"
-                data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
+        <div class="d-flex">
+          <img class="mt-3" src="../assets/Logo.png" alt="">
+          <button class="navbar-toggler" type="button"
+                  data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                  aria-controls="navbarSupportedContent" aria-expanded="false"
+                  aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <div class="d-flex justify-content-around align-items-center navbar-nav mb-2 mb-lg-0"
