@@ -7,7 +7,22 @@
       <h3 class="text-warning__style">Resources</h3>
       <div class="line_style"></div>
     </div>
-    <div></div>
+
+    <div class="w-100 d-flex align-items-center justify-content-center">
+      <div class="polygon__style">
+        <div class="book"></div>
+        <img src="../assets/Polygon3.png" alt="" class="bg_star">
+      </div>
+      <div class="polygon__style">
+          <div class="book"></div>
+        <img src="../assets/Polygon3.png" alt="" class="bg_star">
+      </div>
+      <div class="polygon__style">
+        <div class="book"></div>
+        <img src="../assets/Polygon3.png" alt="" class="bg_star">
+      </div>
+    </div>
+
     <div>
       <div class="tabs__style">
         <div>COURSES</div>
@@ -21,6 +36,30 @@
   </div>
 </template>
 <style scoped>
+.bg_star{
+  margin-top: auto;
+  //width: auto;
+  //height: auto;
+  //border: 1px solid #FFFFFF80;
+  //background: #FFFFFF33;
+}
+.book{
+  position: absolute;
+  bottom: 90px;
+  width: 224px;
+  height: 265px;
+  background-color: cornflowerblue;
+}
+.polygon__style{
+  border: 1px solid blue;
+  display: flex;
+  justify-content: center;
+  //align-items: center;
+  width: 375px;
+  height: 375px;
+  top: 2495px;
+  left: 826px;
+}
 .see_all_style{
   color: white;
   width: 771px;
