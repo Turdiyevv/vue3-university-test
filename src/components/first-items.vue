@@ -6,7 +6,7 @@
   <div class="d-flex">
     <div class="parent_item">
       <div class="item_img_style">
-        <img src="src/assets/firstItems/explore.png" alt="">
+        <img src="../assets/firstItems/explore.png" alt="">
       </div>
       <div class="main_text">Explore</div>
       <div class="text_style">
@@ -18,7 +18,7 @@
     </div>
     <div class="parent_item">
       <div class="item_img_style">
-        <img src="src/assets/firstItems/Vector.png" alt="">
+        <img src="../assets/firstItems/Vector.png" alt="">
       </div>
       <div class="main_text">Compare</div>
       <div class="text_style">
@@ -30,7 +30,7 @@
     </div>
     <div class="parent_item">
       <div class="item_img_style">
-        <img src="src/assets/firstItems/decision.png" alt="">
+        <img src="../assets/firstItems/decision.png" alt="">
       </div>
       <div class="main_text">Decide</div>
       <div class="text_style">
@@ -42,7 +42,7 @@
     </div>
     <div class="parent_item">
       <div class="item_img_style">
-        <img src="src/assets/firstItems/checked.png" alt="">
+        <img src="../assets/firstItems/checked.png" alt="">
       </div>
       <div class="main_text">Apply</div>
       <div class="text_style text-black">
