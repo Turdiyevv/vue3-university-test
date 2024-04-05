@@ -1,5 +1,9 @@
 <script setup>
+import SmallCarousel from "@/components/small-carousel.vue";
 
+defineProps({
+  slides: Object
+})
 </script>
 <template>
   <div>
@@ -10,20 +14,26 @@
 
     <div class="w-100 d-flex align-items-center justify-content-center">
       <div class="polygon__style">
-        <div class="book"></div>
+        <div class="book">
+          <small-carousel :slides="slides"/>
+        </div>
         <img src="../assets/Polygon3.png" alt="" class="bg_star">
       </div>
       <div class="polygon__style">
-          <div class="book"></div>
+          <div class="book">
+            <small-carousel :slides="slides"/>
+          </div>
         <img src="../assets/Polygon3.png" alt="" class="bg_star">
       </div>
       <div class="polygon__style">
-        <div class="book"></div>
+        <div class="book">
+          <small-carousel :slides="slides"/>
+        </div>
         <img src="../assets/Polygon3.png" alt="" class="bg_star">
       </div>
     </div>
 
-    <div>
+    <div style="margin-top: -16px; position:relative;">
       <div class="tabs__style">
         <div>COURSES</div>
         <div>BOOKS</div>
@@ -48,10 +58,10 @@
   bottom: 90px;
   width: 224px;
   height: 265px;
+  border-radius: 7px;
   background-color: cornflowerblue;
 }
 .polygon__style{
-  border: 1px solid blue;
   display: flex;
   justify-content: center;
   //align-items: center;

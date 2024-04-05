@@ -54,8 +54,8 @@ const props  = ref([
             <rectangle/>
           </div>
 
-          <div>
-            <recourse/>
+          <div class="mt-5">
+            <recourse :slides="props"/>
           </div>
         </div>
       </div>
