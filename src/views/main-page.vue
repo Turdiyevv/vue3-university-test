@@ -4,6 +4,7 @@ import { ref } from 'vue'
 import Rectangle from "@/components/rectangle.vue";
 import FirstItems from "@/components/first-items.vue";
 import Recourse from "@/components/recourse.vue";
+import Countries from "@/components/countries.vue";
 
 const props  = ref([
   {id:0, text:'Zero', src: 'https://cdn.vuetifyjs.com/images/carousel/squirrel.jpg'},
@@ -54,9 +55,14 @@ const props  = ref([
             <rectangle/>
           </div>
 
-          <div class="mt-5">
+          <div class="mt-5" style="border: 1px solid red">
             <recourse :slides="props"/>
           </div>
+
+          <div style="border: 1px solid blue">
+            <countries/>
+          </div>
+
         </div>
       </div>
 

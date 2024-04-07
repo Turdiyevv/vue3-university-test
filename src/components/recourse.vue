@@ -14,10 +14,10 @@ defineProps({
 
     <div class="w-100 d-flex align-items-center justify-content-center">
       <div class="polygon__style">
-        <div class="book">
           <small-carousel :slides="slides"/>
-        </div>
-        <img src="../assets/Polygon3.png" alt="" class="bg_star">
+<!--        <div class="book">-->
+<!--        </div>-->
+          <img src="../assets/Polygon3.png" alt="" class="bg_star">
       </div>
       <div class="polygon__style">
           <div class="book">
@@ -53,16 +53,8 @@ defineProps({
   //border: 1px solid #FFFFFF80;
   //background: #FFFFFF33;
 }
-.book{
-  position: absolute;
-  bottom: 90px;
-  width: 224px;
-  height: 265px;
-  border-radius: 7px;
-  background-color: cornflowerblue;
-}
 .polygon__style{
-  display: flex;
+  //display: flex;
   justify-content: center;
   //align-items: center;
   width: 375px;
