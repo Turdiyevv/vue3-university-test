@@ -14,9 +14,9 @@ defineProps({
 
     <div class="w-100 d-flex align-items-center justify-content-center">
       <div class="polygon__style">
+        <div class="book">
           <small-carousel :slides="slides"/>
-<!--        <div class="book">-->
-<!--        </div>-->
+        </div>
           <img src="../assets/Polygon3.png" alt="" class="bg_star">
       </div>
       <div class="polygon__style">
@@ -46,17 +46,22 @@ defineProps({
   </div>
 </template>
 <style scoped>
+.book{
+  width: 222px;
+  margin-top: 92px;
+}
 .bg_star{
-  margin-top: auto;
+  margin-top: -325px;
   //width: auto;
   //height: auto;
   //border: 1px solid #FFFFFF80;
   //background: #FFFFFF33;
 }
 .polygon__style{
-  //display: flex;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
-  //align-items: center;
+  align-items: center;
   width: 375px;
   height: 375px;
   top: 2495px;
@@ -81,12 +86,6 @@ defineProps({
   box-shadow: 0 20px 50px 0 #000000;
   border-radius: 20px;
   justify-content: space-around;
-}
-.line_style{
-  background-color: #FFA500;
-  width: 170px;
-  height: 2px;
-  margin-bottom: 24px;
 }
 .text-warning__style{
   color: #FFA500;

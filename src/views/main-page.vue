@@ -55,13 +55,15 @@ const props  = ref([
             <rectangle/>
           </div>
 
-          <div class="mt-5" style="border: 1px solid red">
+          <div class="mt-5">
             <recourse :slides="props"/>
           </div>
 
-          <div style="border: 1px solid blue">
-            <countries/>
-          </div>
+<!--          <div style="border: 1px solid blue;" class="mt-10 d-flex justify-content-center align-items-center flex-column">-->
+<!--            <div style="font-size: 32px; margin-top: 120px;">Countries</div>-->
+<!--            <div class="line_style"></div>-->
+<!--            <countries/>-->
+<!--          </div>-->
 
         </div>
       </div>

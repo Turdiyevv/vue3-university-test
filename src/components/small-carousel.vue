@@ -58,7 +58,7 @@ defineProps({
   border-radius: 50%;
 }
 .carousel__prev{
-  margin-left: 0;
+  margin-left: 10px;
 }
 .carousel__next {
   margin-right: 0;
